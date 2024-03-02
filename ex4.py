@@ -1,6 +1,4 @@
 import requests
-
-
 def getTopicCount(topic):
     """
     La fonction getTopicCount prend en parametre 'topic' qui est un mot choisit par l'utilisteur
@@ -23,4 +21,4 @@ def getTopicCount(topic):
 
 
 topic = input("Choisir un mot : ")
-print(getTopicCount(topic))
+print(f"Nombre d'occurende de {topic} est : ",getTopicCount(topic))
