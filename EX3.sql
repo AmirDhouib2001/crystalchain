@@ -30,4 +30,4 @@ SELECT Department.Name, COUNT(Employee.ID) AS NbEmployee
 FROM Department
 LEFT JOIN Employee ON Department.ID = Employee.Dept_ID
 GROUP BY Department.Name
-ORDER BY NbEmployee DESC, Department.Name
+ORDER BY NbEmployee DESC,Department.Name
