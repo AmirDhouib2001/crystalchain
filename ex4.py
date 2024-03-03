@@ -21,4 +21,4 @@ def getTopicCount(topic):
 
 
 topic = input("Choisir un mot : ")
-print(f"Nombre d'occurende de {topic} est : ",getTopicCount(topic))
+print(f"Nombre d'occurences de {topic} est : ",getTopicCount(topic))

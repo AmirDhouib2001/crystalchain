@@ -1,4 +1,4 @@
-def Max_Diff(array):
+def max_diff(array):
     """
     La fonction prend en parametre un tableau et renvoie la difference maximal entre deux valeurs
     du tableau sous condition que la petite valeur precede la grande valeur
@@ -17,8 +17,8 @@ def Max_Diff(array):
 taille = int(input("Taille du tableau : "))
 array = []
 for i in range(taille):
-    nbr = int(input(f"Ecrit l'élement {i+1}: "))
+    nbr = int(input(f"Taper l'élement {i+1}: "))
     array.append(nbr)
 
-maxdiff = Max_Diff(array)
+maxdiff = max_diff(array)
 print("Difference Maximal = ", maxdiff)
