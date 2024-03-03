@@ -21,4 +21,4 @@ for i in range(taille):
     array.append(nbr)
 
 maxdiff = max_diff(array)
-print("Difference Maximal = ", maxdiff)
+print("Difference Maximale = ", maxdiff)
